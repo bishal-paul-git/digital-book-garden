@@ -22,8 +22,8 @@ export const Sidebar = ({ activeSection, onSectionChange }: SidebarProps) => {
         <div className="flex items-center space-x-3">
           <Database className="h-8 w-8 text-blue-600" />
           <div>
-            <h1 className="text-xl font-bold text-gray-900">Library MS</h1>
-            <p className="text-sm text-gray-500">Management System</p>
+            <h1 className="text-xl font-bold text-gray-900">SIU Library</h1>
+            <p className="text-sm text-gray-500">Sylhet International University</p>
           </div>
         </div>
       </div>

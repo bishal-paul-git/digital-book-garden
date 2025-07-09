@@ -18,7 +18,7 @@ export const Dashboard = () => {
   if (isLoading) {
     return (
       <div className="space-y-6">
-        <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
+        <h1 className="text-3xl font-bold text-gray-900">SIU Library Dashboard</h1>
         <div className="animate-pulse">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[1, 2, 3, 4].map((i) => (
@@ -60,9 +60,9 @@ export const Dashboard = () => {
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
+        <h1 className="text-3xl font-bold text-gray-900">SIU Library Dashboard</h1>
         <div className="text-sm text-gray-500">
-          Welcome to the Library Management System
+          Welcome to Sylhet International University Library Management System
         </div>
       </div>
 
@@ -108,7 +108,7 @@ export const Dashboard = () => {
         </Card>
 
         <Card className="p-6">
-          <h3 className="text-lg font-semibold mb-4">System Information</h3>
+          <h3 className="text-lg font-semibold mb-4">SIU Library Information</h3>
           <div className="space-y-4">
             <div className="flex justify-between">
               <span className="text-gray-600">Database Status</span>
@@ -121,6 +121,10 @@ export const Dashboard = () => {
             <div className="flex justify-between">
               <span className="text-gray-600">System Version</span>
               <span className="text-gray-900">v1.0.0</span>
+            </div>
+            <div className="flex justify-between">
+              <span className="text-gray-600">University</span>
+              <span className="text-gray-900">Sylhet International University</span>
             </div>
           </div>
         </Card>
